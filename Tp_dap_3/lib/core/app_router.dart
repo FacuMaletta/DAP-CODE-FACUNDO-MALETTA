@@ -1,6 +1,7 @@
 import 'package:clase18_4/presentation/Screens/home_screen.dart';
 import 'package:clase18_4/presentation/Screens/Login_screen.dart';
-import 'package:clase18_4/presentation/Screens/infoempleados_screen.dart';
+import 'package:clase18_4/presentation/Screens/Infopaises_screen.dart';
+import 'package:clase18_4/presentation/Screens/infopaises_screen.dart';
 
 import 'package:go_router/go_router.dart';
 
@@ -19,13 +20,13 @@ initialLocation: '/login',
   ),
 
      GoRoute(
-      name: InfoempleadosScreen.name,
-      path: '/infoempleados/:empleadoId',
+      name: InfopaisesScreen.name,
+      path: '/infopais/:paisId',
       builder: (context, state) {
 
-        final empleadoId = state.pathParameters['empleadoId'];
-        return InfoempleadosScreen(
-          empleadoId: empleadoId!,
+        final paisId = state.pathParameters['paisId'];
+        return InfopaisesScreen(
+          paisId: paisId!,
         );
       },
     ),
