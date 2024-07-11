@@ -2,7 +2,6 @@
 
 
 import 'package:clase18_4/entities/pais.dart';
-import 'package:flutter/material.dart';
 
 final paislist = [
     Pais(

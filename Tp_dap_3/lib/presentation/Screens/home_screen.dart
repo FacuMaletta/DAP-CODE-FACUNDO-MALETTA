@@ -2,11 +2,11 @@
 import 'package:clase18_4/core/data/paises_datasource.dart';
 import 'package:clase18_4/entities/pais.dart';
 import 'package:clase18_4/presentation/Screens/Infopaises_screen.dart';
-import 'package:clase18_4/presentation/Screens/infopaises_screen.dart';
 import 'package:clase18_4/widgets/pais_item.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
+// ignore: must_be_immutable
 class HomeScreen extends StatelessWidget {
 static const String name = 'home';
 final List<Pais> pais = paislist;

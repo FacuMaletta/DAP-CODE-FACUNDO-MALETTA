@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
 
+// ignore: must_be_immutable
 class LoginScreen extends StatelessWidget {
    LoginScreen({super.key});
   
